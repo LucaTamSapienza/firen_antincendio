@@ -6,25 +6,25 @@ const servizi = [
   {
     label: 'Manutenzione',
     href: '/servizi/manutenzione',
-    img: '/firen_antincendio/images/servizi/manutenzione.jpg',
+    img: '/images/servizi/manutenzione.jpg',
     descrizione: `Ci occupiamo della manutenzione ordinaria e straordinaria di estintori, impianti e dispositivi antincendio, garantendo il rispetto delle normative e la massima efficienza dei sistemi di sicurezza. Il nostro servizio comprende controlli periodici, verifiche funzionali e rilascio delle certificazioni richieste per legge.`
   },
   {
     label: 'Installazione Porte Tagliafuoco',
     href: '/servizi/installazionePorteTagliafuoco',
-    img: '/firen_antincendio/images/servizi/porte-tagliafuoco.jpg',
+    img: '/images/servizi/porte-tagliafuoco.jpg',
     descrizione: `Installiamo porte tagliafuoco certificate REI per la compartimentazione degli ambienti e la protezione delle vie di fuga. Offriamo soluzioni su misura, dalla consulenza alla posa in opera, con materiali di alta qualità e finiture personalizzate. Scopri tutti i dettagli e le normative di riferimento.`
   },
   {
     label: 'IRAI',
     href: '/servizi/irai',
-    img: '/firen_antincendio/images/servizi/irai.jpg',
+    img: '/images/servizi/irai.jpg',
     descrizione: `Progettiamo e realizziamo impianti di Rilevazione Automatica di Incendio (IRAI) per una protezione tempestiva e affidabile di edifici civili e industriali. I nostri sistemi sono integrabili con evacuatori di fumo, allarmi sonori e impianti di spegnimento automatico.`
   },
   {
     label: 'Impianti Elettrici',
     href: '/servizi/impiantiElettrici',
-    img: '/firen_antincendio/images/servizi/impianti-elettrici.jpg',
+    img: '/images/servizi/impianti-elettrici.jpg',
     descrizione: `Ci occupiamo della progettazione, realizzazione e messa a norma di impianti elettrici civili e industriali, con particolare attenzione alla sicurezza antincendio. Offriamo soluzioni innovative, efficienti e conformi alle normative vigenti.`
   },
 ];
@@ -32,7 +32,7 @@ const servizi = [
 const PageServizi = () => {
   return (
     <section className="w-full px-0 bg-white pb-10">
-      <Hero image='/firen_antincendio/images/servizi.jpg' title="Servizi" />
+      <Hero image='/images/servizi.jpg' title="Servizi" />
       <div className="w-full py-12 px-0 space-y-20">
         {servizi.map((serv, idx) => (
           <div

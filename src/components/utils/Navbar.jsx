@@ -77,7 +77,7 @@ const Navbar = () => {
           <div className="max-w-6xl mx-auto px-8 py-4 flex items-center justify-between">
             <motion.div whileHover={{ scale: 1.1 }} className="flex items-center">
               <Link href="/">
-                <img src="/firen_antincendio/images/logo.png" alt="Firen Antincendio Logo" className="w-32 h-25"/>
+                <img src="/images/logo.png" alt="Firen Antincendio Logo" className="w-32 h-25"/>
               </Link>
             </motion.div>
             {/* Desktop Links */}

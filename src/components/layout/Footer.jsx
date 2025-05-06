@@ -6,7 +6,7 @@ const Footer = () => {
     <footer
       className="relative bg-gray-900 text-white py-10 px-6 overflow-hidden bg-cover bg-center"
       style={{
-        backgroundImage: "url('/firen_antincendio/images/footer-bg.png')",
+        backgroundImage: "url('/images/footer-bg.png')",
       }}
     >
       {/* Overlay sfumato */}
