@@ -2,6 +2,7 @@
   "name": "firen_antincendio",
   "version": "0.1.0",
   "private": true,
+  "homepage": "https://LucaTamSapienza.github.io/firen_antincendio",
   "scripts": {
     "dev": "next dev",
     "build": "next build",
