@@ -41,10 +41,10 @@ const PageContatti = () => {
 
   return (
     <section className="w-full px-0 bg-white pb-10">
-      <Hero image="/images/hero-contact.jpg" title="Contatti" />
+      <Hero image="/firen_antincendio/images/hero-contact.jpg" title="Contatti" />
       <div className="w-full relative flex flex-col md:flex-row items-stretch justify-between overflow-hidden shadow-lg bg-gray-900">
         <img
-          src="/images/contatti-bg.png"
+          src="/firen_antincendio/images/contatti-bg.png"
           alt="Contatti Firen Antincendio"
           className="absolute inset-0 w-full h-full object-cover"
         />

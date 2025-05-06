@@ -4,14 +4,14 @@ const PageChiSiamo = () => {
     return (
       <section className="w-full px-0 bg-white pb-10">
         {/* Banner Chi Siamo con componente riutilizzabile */}
-        <Hero image="/images/chi-siamo-bg.jpeg" title="Chi Siamo" />
+        <Hero image="/firen_antincendio/images/chi-siamo-bg.jpeg" title="Chi Siamo" />
 
         {/* Sezione Chi Siamo */}
         <div className="w-full relative flex flex-col md:flex-row items-stretch justify-between bg-gray-900 overflow-hidden shadow-lg">
           {/* Immagine a destra con overlay */}
           <div className="w-full md:w-1/2 relative h-64 md:h-auto">
             <img
-              src="/images/team.png"
+              src="/firen_antincendio/images/team.png"
               alt="Team Firen Antincendio"
               className="object-cover w-full h-full"
             />
