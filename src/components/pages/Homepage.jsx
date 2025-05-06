@@ -20,7 +20,7 @@ const Homepage = () => {
       <motion.section
         className="w-full relative h-[400px] md:h-[1000px] flex items-center justify-center bg-center bg-cover"
         style={{
-          backgroundImage: "url('/firen_antincendio/images/homepage-bg.png')",
+          backgroundImage: "url('images/homepage-bg.png')",
         }}
         initial="hidden"
         whileInView="visible"
@@ -108,7 +108,7 @@ const Homepage = () => {
             viewport={{ once: true, amount: 0.3 }}
           >
             <img
-              src="/firen_antincendio/images/team.png"
+              src="/images/team.png"
               alt="Team Firen Antincendio"
               className="object-cover w-full h-full"
             />
@@ -176,12 +176,12 @@ const Homepage = () => {
           <div className="overflow-x-auto overflow-y-hidden scrollbar-hide h-[380px]">
             <div className="flex space-x-8 min-w-[900px] h-full">
               {[
-                { img: "/firen_antincendio/images/prodotti/estintore.jpg", label: "Estintore", link: "/prodotti/estintori" },
-                { img: "/firen_antincendio/images/prodotti/segnaletica.png", label: "Segnaletica", link: "/prodotti/segnaletica" },
-                { img: "/firen_antincendio/images/prodotti/rilevazione2.png", label: "Centrali di Rilevazione", link: "/prodotti/centraliDiRilevazione" },
-                { img: "/firen_antincendio/images/prodotti/maniglione-image.png", label: "Maniglioni Antipanico", link: "/prodotti/maniglioniAntipanico" },
-                { img: "/firen_antincendio/images/prodotti/porta-tagliafuoco-image.png", label: "Porte Tagliafuoco", link: "/prodotti/porteTagliafuoco" },
-                { img: "/firen_antincendio/images/prodotti/illuminazione-image.png", label: "Illuminazione di Emergenza", link: "/prodotti/illuminazioneDiEmergenza" },
+                { img: "/images/prodotti/estintore.jpg", label: "Estintore", link: "/prodotti/estintori" },
+                { img: "/images/prodotti/segnaletica.png", label: "Segnaletica", link: "/prodotti/segnaletica" },
+                { img: "/images/prodotti/rilevazione2.png", label: "Centrali di Rilevazione", link: "/prodotti/centraliDiRilevazione" },
+                { img: "/images/prodotti/maniglione-image.png", label: "Maniglioni Antipanico", link: "/prodotti/maniglioniAntipanico" },
+                { img: "/images/prodotti/porta-tagliafuoco-image.png", label: "Porte Tagliafuoco", link: "/prodotti/porteTagliafuoco" },
+                { img: "/images/prodotti/illuminazione-image.png", label: "Illuminazione di Emergenza", link: "/prodotti/illuminazioneDiEmergenza" },
               ].map((prod, idx) => (
                 <Link href={prod.link} key={prod.label} className="group">
                   <motion.div
