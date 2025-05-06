@@ -6,13 +6,14 @@ const SMTP_SERVER_PASSWORD = process.env.SMTP_SERVER_PASSWORD;
 const SITE_MAIL_RECIEVER = process.env.SITE_MAIL_RECIEVER;
 
 const transporter = nodemailer.createTransport({
-  host: SMTP_SERVER_HOST,
-  port: 587,
-  secure: false,
-  auth: {
-    user: SMTP_SERVER_USERNAME,
-    pass: SMTP_SERVER_PASSWORD,
-  },
+    service: 'gmail',
+    host: SMTP_SERVER_HOST,
+    port: 465,
+    secure: true,
+    auth: {
+        user: SMTP_SERVER_USERNAME,
+        pass: SMTP_SERVER_PASSWORD,
+    },
 });
 
 export async function sendMail({ email, subject, text, html }) {
