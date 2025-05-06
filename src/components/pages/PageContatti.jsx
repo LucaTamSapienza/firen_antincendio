@@ -21,7 +21,7 @@ const PageContatti = () => {
     setStatus('loading');
   
     try {
-      const res = await fetch('/api/contact', {  // Cambia /sendMail con /contact
+      const res = await fetch('/firen_antincendio/api/contact', {  // Cambia /sendMail con /contact
         method: 'POST',
         headers: { 'Content-Type': 'application/json' },
         body: JSON.stringify(formData),
