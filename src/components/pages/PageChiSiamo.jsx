@@ -21,10 +21,10 @@ const PageChiSiamo = () => {
           <div className="w-full md:w-1/2 p-8 flex flex-col justify-center text-left relative z-10">
             <h3 className="text-3xl font-semibold text-white mb-6">La nostra storia</h3>
             <p className="text-lg text-gray-200 mb-4">
-              Firen Antincendio è un'azienda leader nel settore della sicurezza antincendio, con anni di esperienza e un team altamente qualificato.
+            Firen Antincendio opera nel settore della sicurezza antincendio da molti anni, offrendo esperienza e competenza grazie a un team altamente qualificato.
             </p>
             <p className="text-lg text-gray-200">
-              Offriamo un servizio completo: dalla manutenzione ordinaria di estintori, alla progettazione e realizzazione di impianti di rilevazione antincendio, fino alla messa a norma di impianti elettrici.
+            Offriamo un servizio completo: dalla manutenzione ordinaria di estintori, alla progettazione e realizzazione di impianti di rilevazione antincendio, fino alla messa a norma di impianti elettrici.
             </p>
           </div>
         </div>

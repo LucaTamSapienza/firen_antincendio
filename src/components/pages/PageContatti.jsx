@@ -6,6 +6,7 @@ const PageContatti = () => {
   const [formData, setFormData] = useState({
     name: '',
     email: '',
+    phone: '',
     subject: '',
     message: '',
   });
@@ -29,7 +30,7 @@ const PageContatti = () => {
   
       if (res.ok) {
         setStatus('success');
-        setFormData({ name: '', email: '', subject: '', message: '' });
+        setFormData({ name: '', email: '', phone: '', subject: '', message: '' });
       } else {
         setStatus('error');
       }
@@ -76,6 +77,14 @@ const PageContatti = () => {
               placeholder="Email*"
               className="w-full p-2 rounded bg-gray-100 text-gray-900 border border-gray-300"
               required
+            />
+            <input
+              type="text"
+              name="phone"
+              value={formData.phone}
+              onChange={handleChange}
+              placeholder="Numero di telefono"
+              className="w-full p-2 rounded bg-gray-100 text-gray-900 border border-gray-300"
             />
             <input
               type="text"
